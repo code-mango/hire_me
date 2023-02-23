@@ -1,5 +1,6 @@
-# hire_me
-The code follows the standard structure of a Rasa chatbot, which consists of two main components: the NLU (natural language understanding) and the dialogue management.
+# Resume Chatbot - An interactive Rasa Chatbot 
+The code follows the standard structure of a Rasa chatbot, which consists of two main components: 
+the NLU (natural language understanding) and the dialogue management.
 
 The NLU component is responsible for understanding user input, extracting relevant information, and mapping it to intents and entities. The NLU configuration is defined in the pipeline section of the config.yml file. The example pipeline consists of a WhitespaceTokenizer, a RegexFeaturizer, a CRFEntityExtractor, a DIETClassifier, and an EntitySynonymMapper.
 
